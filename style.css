@@ -1,0 +1,1172 @@
+/* /* *{
+          margin: 0;
+          box-sizing: border-box;
+      } */
+      /* Your code goes here */
+      body{
+        /* margin: -40px; */
+        overflow-x: hidden;
+      }
+      /* .nav{
+        position: fixed;
+      } */
+      .group-7 img{
+      
+        /* blue box */
+        position: relative;
+        top:-35px;
+        left: -55px;
+      }
+
+      .navbar-nav{
+        position: absolute;
+        right:250px; 
+        top: 25px;
+      }
+      .nav-item{
+        padding: 20px;
+      }
+      .nav-item:hover{
+        background-color: #065c67;
+        border-radius: 80px;
+      }
+      .desktop {
+          background-color: #222f4b;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          width: 100%;
+        }
+        
+        .desktop .overlap-wrapper {
+          background-color: #222f4b;
+          overflow: hidden;
+          width: 1440px;
+          height: 900px;
+        }
+        
+        .desktop .overlap {
+          position: relative;
+          width: 1885px;
+          height: 1691px;
+          top: 50px;
+          left: 38px;
+        }
+        
+        .desktop .overlap-group {
+          position: absolute;
+          width: 1885px;
+          height: 1691px;
+          top: 0;
+          left: 0;
+        }
+        
+        .desktop .div {
+          position: absolute;
+          width: 1885px;
+          height: 1622px;
+          top: 69px;
+          left: 0;
+        }
+        
+        .desktop .vector {
+          position: absolute;
+          width: 1244px;
+          height: 721px;
+          top: 29px;
+          left: 55px;
+        }
+        
+        .desktop .group {
+          position: relative;
+          left: 300px;
+          width: 1000px;
+          height: 1000px;
+          top: 0;
+          left: 525px;
+          animation: rotate-animation 90s infinite linear;
+        }
+        @keyframes rotate-animation {
+          0% {
+            transform: rotate(0deg);
+          }
+          50% {
+            transform: rotate(180deg);
+          }
+          100% {
+            transform: rotate(360deg);
+          }
+        }
+        .desktop .overlap-group-wrapper {
+          position: absolute;
+          width: 251px;
+          height: 251px;
+          top: 374px;
+          left: 899px;
+          background-color: #283654;
+          border-radius: 125.5px;
+        }
+        
+        .desktop .ellipse-wrapper {
+          position: relative;
+          width: 183px;
+          height: 183px;
+          top: 34px;
+          left: 34px;
+          background-color: #2c3b5b;
+          border-radius: 91.54px;
+        }
+        
+        .desktop .ellipse {
+          position: relative;
+          width: 128px;
+          height: 128px;
+          top: 27px;
+          left: 27px;
+          background-color: #37486c;
+          border-radius: 64.23px;
+        }
+        
+        .desktop .group-2 {
+          position: absolute;
+          width: 1342px;
+          height: 641px;
+          top: 46px;
+          left: 2px;
+        }
+        
+        .desktop .img {
+          position: absolute;
+          width: 60px;
+          height: 60px;
+          top: 410px;
+          left: 0;
+        }
+        
+        .desktop .ellipse-2 {
+          position: absolute;
+          width: 47px;
+          height: 47px;
+          top: 0;
+          left: 636px;
+        }
+        
+        .desktop .ellipse-3 {
+          position: absolute;
+          width: 47px;
+          height: 47px;
+          top: 594px;
+          left: 445px;
+        }
+        
+        .desktop .ellipse-4 {
+          position: absolute;
+          width: 60px;
+          height: 60px;
+          top: 91px;
+          left: 1282px;
+          mix-blend-mode: hard-light;
+        }
+        
+        .desktop .group-3 {
+          position: absolute;
+          width: 468px;
+          height: 247px;
+          top: 109px;
+          left: 746px;
+        }
+        
+        .desktop .text-wrapper {
+          position: absolute;
+          width: 466px;
+          top: 0;
+          left: 0;
+          font-family: "Montserrat-SemiBold", Helvetica;
+          font-weight: 600;
+          color: #ffffff;
+          font-size: 50px;
+          letter-spacing: -1.5px;
+          line-height: 55.9px;
+        }
+        
+        .desktop .get-started-wrapper {
+          position: absolute;
+          width: 186px;
+          height: 55px;
+          /* top 192 */
+          top: 222px;
+          left: 1px;
+          background-color: #098899;
+          border-radius: 27.64px;
+        }
+        
+       .get-started {
+          /* absalute & top -1 */
+          position: relative;
+          width: 186px;
+          height: 55px;
+          top: 20px;
+          left: 0;
+          font-family: "Montserrat-Bold", Helvetica;
+          font-weight: 700;
+          color: #ffffff;
+          font-size: 14px;
+          text-align: center;
+          letter-spacing: 0.28px;
+          line-height: 15.7px;
+        }
+        .desktop .get-start{
+          position: relative;
+          width: 186px;
+          height: 100px;
+          top: 20px;
+          left: 20px;
+          font-family: "Montserrat-Bold", Helvetica;
+          font-weight: 700;
+          color: #ffffff;
+          font-size: 14px;
+          text-align: center;
+          letter-spacing: 0.28px;
+          line-height: 15.7px;
+          visibility: hidden;
+      
+        }
+        .desktop .get-start-2{
+          position: relative;
+          width: 186px;
+          height: 100px;
+          top: 24px;
+          left: 20px;
+          font-family: "Montserrat-Bold", Helvetica;
+          font-weight: 700;
+          color: #ffffff;
+          font-size: 14px;
+          text-align: center;
+          letter-spacing: 0.28px;
+          line-height: 15.7px;}
+      
+          .desktop .get-start-3{
+            position: relative;
+            width: 186px;
+            height: 100px;
+            top: 22px;
+            left: 20px;
+            font-family: "Montserrat-Bold", Helvetica;
+            font-weight: 700;
+            color: #ffffff;
+            font-size: 14px;
+            text-align: center;
+            letter-spacing: 0.28px;
+            line-height: 15.7px;}
+        
+      
+        .desktop .div-wrapper {
+          position: absolute;
+          width: 1862px;
+          height: 1255px;
+          top: 367px;
+          left: 23px;
+        }
+        
+        .desktop .overlap-2 {
+          position: relative;
+          height: 1255px;
+        }
+        
+        .desktop .rectangle {
+          position: absolute;
+          width: 1636px;
+          height: 610px;
+          top: 244px;
+          left: 55px;
+          background-color: #076673;
+          transform: rotate(-18.5deg);
+        }
+        
+        .desktop .rectangle-2 {
+          position: absolute;
+          width: 1636px;
+          height: 610px;
+          top: 325px;
+          left: 83px;
+          background-color: #065c67;
+          transform: rotate(-18.5deg);
+        }
+        
+        .desktop .rectangle-3 {
+          position: absolute;
+          width: 1636px;
+          height: 610px;
+          top: 401px;
+          left: 172px;
+          background-color: #064750;
+          transform: rotate(-18.5deg);
+        }
+        
+        .desktop .group-4 {
+          position: absolute;
+          width: 477px;
+          height: 586px;
+          top: 51px;
+          left: 149px;
+        }
+        
+        .desktop .overlap-3 {
+          position: relative;
+          height: 586px;
+        }
+        
+        .desktop .group-5 {
+          position: absolute;
+          width: 409px;
+          height: 518px;
+          top: 68px;
+          left: 0;
+        }
+        
+        .desktop .overlap-4 {
+          position: relative;
+          height: 518px;
+        }
+        
+        .desktop .rectangle-4 {
+          position: absolute;
+          width: 341px;
+          height: 477px;
+          top: 0;
+          left: 68px;
+          background-color: var(--green);
+          border-radius: 12px;
+          box-shadow: 0px 34.08px 42.6px #222c41;
+        }
+        
+        .desktop .group-6 {
+          position: absolute;
+          width: 237px;
+          height: 331px;
+          top: 74px;
+          left: 108px;
+        }
+        
+        .desktop .overlap-group-2 {
+          position: relative;
+          height: 331px;
+        }
+        
+        .desktop .vector-2 {
+          position: absolute;
+          width: 231px;
+          height: 324px;
+          top: 6px;
+          left: 7px;
+        }
+        
+        .desktop .ellipse-5 {
+          position: absolute;
+          width: 14px;
+          height: 14px;
+          top: 0;
+          left: 0;
+          background-color: #ffffff;
+          border-radius: 7.24px;
+        }
+        
+        .desktop .ellipse-6 {
+          position: absolute;
+          width: 14px;
+          height: 14px;
+          top: 306px;
+          left: 0;
+          background-color: #ffffff;
+          border-radius: 7.24px;
+        }
+        
+        .desktop .ellipse-7 {
+          position: absolute;
+          width: 8px;
+          height: 8px;
+          top: 237px;
+          left: 3px;
+          background-color: #ffffff;
+          border-radius: 4.24px;
+        }
+        
+        .desktop .ellipse-8 {
+          position: absolute;
+          width: 8px;
+          height: 8px;
+          top: 168px;
+          left: 3px;
+          background-color: #ffffff;
+          border-radius: 4.24px;
+        }
+        
+        .desktop .ellipse-9 {
+          position: absolute;
+          width: 8px;
+          height: 8px;
+          top: 99px;
+          left: 3px;
+          background-color: #ffffff;
+          border-radius: 4.24px;
+        }
+        
+        .desktop .ellipse-10 {
+          position: absolute;
+          width: 8px;
+          height: 8px;
+          top: 38px;
+          left: 3px;
+          background-color: #ffffff;
+          border-radius: 4.24px;
+        }
+        
+        .desktop .group-7 {
+          position: absolute;
+          width: 308px;
+          height: 362px;
+          top: 35px;
+          left: 85px;
+        }
+        
+        .desktop .rectangle-5 {
+          position: absolute;
+          width: 308px;
+          height: 138px;
+          top: 0;
+          left: 0;
+          background-color: #ffffff36;
+          border-radius: 8px;
+        }
+        
+        .desktop .rectangle-6 {
+          position: absolute;
+          width: 308px;
+          height: 58px;
+          top: 152px;
+          left: 0;
+          background-color: #ffffff36;
+          border-radius: 8px;
+        }
+        
+        .desktop .rectangle-7 {
+          position: absolute;
+          width: 308px;
+          height: 58px;
+          top: 228px;
+          left: 0;
+          background-color: #ffffff36;
+          border-radius: 8px;
+        }
+        
+        .desktop .rectangle-8 {
+          position: absolute;
+          width: 308px;
+          height: 58px;
+          top: 304px;
+          left: 0;
+          background-color: #ffffff36;
+          border-radius: 8px;
+        }
+        
+        .desktop .rectangle-9 {
+          position: absolute;
+          width: 175px;
+          height: 177px;
+          top: 341px;
+          left: 0;
+          background-color: #08556e;
+          border-radius: 12px;
+          box-shadow: 0px 29.82px 34.08px #28375f1c;
+        }
+        
+        .desktop .group-8 {
+          position: absolute;
+          width: 237px;
+          height: 331px;
+          top: 9px;
+          left: 35px;
+        }
+        
+        .desktop .group-9 {
+          position: absolute;
+          width: 140px;
+          height: 124px;
+          top: 360px;
+          left: 17px;
+        }
+        
+        .desktop .group-10 {
+          position: absolute;
+          width: 52px;
+          height: 55px;
+          top: 0;
+          left: 0;
+          background-color: #ffffff42;
+          border-radius: 3px;
+        }
+        
+        .desktop .group-11 {
+          position: absolute;
+          width: 52px;
+          height: 55px;
+          top: 0;
+          left: 58px;
+          background-color: #ffffff1f;
+          border-radius: 3px;
+        }
+        
+        .desktop .group-12 {
+          position: absolute;
+          width: 140px;
+          height: 56px;
+          top: 68px;
+          left: 0;
+        }
+        
+        .desktop .rectangle-10 {
+          position: absolute;
+          width: 140px;
+          height: 7px;
+          top: 0;
+          left: 0;
+          background-color: #ffffff;
+        }
+        
+        .desktop .rectangle-11 {
+          position: absolute;
+          width: 140px;
+          height: 7px;
+          top: 17px;
+          left: 0;
+          background-color: #ffffffc7;
+        }
+        
+        .desktop .rectangle-12 {
+          position: absolute;
+          width: 140px;
+          height: 7px;
+          top: 33px;
+          left: 0;
+          background-color: #ffffff99;
+        }
+        
+        .desktop .rectangle-13 {
+          position: absolute;
+          width: 106px;
+          height: 7px;
+          top: 50px;
+          left: 0;
+          background-color: #ffffff70;
+        }
+        
+        .desktop .group-wrapper {
+          position: absolute;
+          width: 204px;
+          height: 273px;
+          top: 0;
+          left: 273px;
+          background-color: #d7e9f3;
+          border-radius: 12px;
+        }
+        
+        .desktop .group-13 {
+          position: relative;
+          width: 182px;
+          height: 228px;
+          top: 14px;
+          left: 11px;
+        }
+        
+        .desktop .rectangle-14 {
+          position: absolute;
+          width: 181px;
+          height: 163px;
+          top: 0;
+          left: 0;
+          background-color: #ffffff;
+          border-radius: 6px;
+        }
+        
+        .desktop .rectangle-15 {
+          position: absolute;
+          width: 182px;
+          height: 12px;
+          top: 174px;
+          left: 0;
+          background-color: #ffffff;
+        }
+        
+        .desktop .rectangle-16 {
+          position: absolute;
+          width: 182px;
+          height: 12px;
+          top: 195px;
+          left: 0;
+          background-color: #ffffffb0;
+        }
+        
+        .desktop .rectangle-17 {
+          position: absolute;
+          width: 121px;
+          height: 12px;
+          top: 216px;
+          left: 0;
+          background-color: #ffffff69;
+        }
+        
+        .desktop .group-14 {
+          display: inline-flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 5px;
+          position: absolute;
+          top: 387px;
+          left: 0;
+        }
+        
+        .desktop .text-wrapper-2 {
+          position: relative;
+          width: fit-content;
+          margin-top: -1px;
+          font-family: "Montserrat-Regular", Helvetica;
+          font-weight: 400;
+          color: #4a6296;
+          font-size: 10px;
+          text-align: center;
+          letter-spacing: 0;
+          line-height: 11.2px;
+          white-space: nowrap;
+        }
+        
+        .desktop .text-wrapper-3 {
+          font-family: "Montserrat-Regular", Helvetica;
+          font-weight: 400;
+          color: #4a6296;
+          font-size: 8px;
+          letter-spacing: 0;
+          line-height: 8.9px;
+          position: relative;
+          width: fit-content;
+          text-align: center;
+          white-space: nowrap;
+        }
+        
+        .desktop .package {
+          position: relative;
+          width: 24px;
+          height: 24px;
+        }
+        
+        .desktop .group-15 {
+          position: absolute;
+          width: 58px;
+          height: 54px;
+          top: 637px;
+          left: 379px;
+        }
+        
+        .desktop .group-16 {
+          display: inline-flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 5px;
+          position: absolute;
+          top: 83px;
+          left: 1249px;
+        }
+        
+        .desktop .ionaughtlogo {
+          /* absalut */
+          position: fixed;
+          width: 112px;
+          height: 72px;
+          top: 0;
+          left: 22px;
+        }
+        /* nav{
+          position: fixed;
+        } */
+        
+        .desktop .home {
+          left: 645px;
+          display: inline-flex;
+          align-items: center;
+          gap: 10px;
+          position: absolute;
+          top: 23px;
+        }
+        
+        #text-wrapper-4 {
+          margin-top: -1px;
+          font-family: "Montserrat-SemiBold", Helvetica;
+          font-weight: 600;
+          color: #ffffff;
+          font-size: 16px;
+          letter-spacing: 0.32px;
+          line-height: 17.9px;
+          position: relative;
+          width: fit-content;
+          text-align: center;
+          white-space: nowrap;
+          padding-left: 10px;
+        }
+        
+        .desktop .home-2 {
+          left: 761px;
+          display: inline-flex;
+          align-items: center;
+          gap: 10px;
+          position: absolute;
+          top: 23px;
+        }
+        
+        .desktop .home-3 {
+          left: 910px;
+          display: inline-flex;
+          align-items: center;
+          gap: 10px;
+          position: absolute;
+          top: 23px;
+        }
+        
+        .desktop .home-4 {
+          left: 1072px;
+          display: inline-flex;
+          align-items: center;
+          gap: 10px;
+          position: absolute;
+          top: 23px;
+        }
+        
+        
+       .group-17 {
+          position: absolute;
+          width: 186px;
+          height: 55px;
+          top: 12px;
+          right:-250px;
+          background-color: #098899;
+          border-radius: 27.64px;
+        }
+        .box {
+          width: 378px;
+          height: 378px;
+      }
+      
+      .box .ellipse {
+          position: fixed;
+          width: 378px;
+          height: 378px;
+          top: 0;
+          left: 0;
+          border-radius: 189px;
+          border: 3px solid;
+          border-color: #283756;
+      }
+      @media screen and (max-width: 700px) {
+        .desktop .group-4 {
+          position: absolute;
+          width: 477px;
+          height: 586px;
+          top: 51px;
+          left: -20px;
+        }
+        .group-7 img{
+          height: 171px;
+          width: 122.14px;
+          border-radius: 12px;
+        }
+        .desktop .rectangle-5{
+          left: -243px;
+        }
+        .desktop .rectangle-6{
+          left: -243px;
+        }
+        .desktop .rectangle-7{
+          left: -243px;
+        }
+        .desktop .rectangle-8{
+          left: -243px;
+        }
+        .desktop .group-9 {
+         
+          
+          left: -156px;
+        }
+        .desktop .rectangle-9{
+          left:-150;
+        }
+        /* nav{
+          visibility: hidden;
+        } */
+        .box {
+          width: 171px;
+          height: 210px;
+      }
+      
+      .box .group {
+          position: fixed;
+          width: 171px;
+          height: 210px;
+          top: 0;
+          left: 0;
+      }
+      
+      .box .overlap {
+          position: relative;
+          height: 210px;
+      }
+      
+      .box .overlap-wrapper {
+          position: absolute;
+          width: 147px;
+          height: 186px;
+          top: 24px;
+          left: 0;
+      }
+      
+      .box .overlap-group {
+          position: relative;
+          height: 186px;
+      }
+      
+      .box .rectangle {
+          position: absolute;
+          width: 122px;
+          height: 171px;
+          top: 0;
+          left: 24px;
+          background-color: #0c9eb2;
+          border-radius: 12px;
+          box-shadow: 0px 34.08px 42.6px #222c41;
+      }
+      
+      .box .overlap-group-wrapper {
+          position: absolute;
+          width: 85px;
+          height: 118px;
+          top: 26px;
+          left: 39px;
+      }
+      
+      .box .div {
+          position: relative;
+          height: 118px;
+      }
+      
+      .box .vector {
+          position: absolute;
+          width: 83px;
+          height: 117px;
+          top: 2px;
+          left: 2px;
+      }
+      
+      .box .ellipse {
+          width: 5px;
+          height: 5px;
+          top: 0;
+          left: 0;
+          border-radius: 2.6px;
+          position: absolute;
+          background-color: #ffffff;
+      }
+      
+      .box .ellipse-2 {
+          width: 5px;
+          height: 5px;
+          top: 110px;
+          left: 0;
+          border-radius: 2.6px;
+          position: absolute;
+          background-color: #ffffff;
+      }
+      
+      .box .ellipse-3 {
+          width: 3px;
+          height: 3px;
+          top: 85px;
+          left: 1px;
+          border-radius: 1.52px;
+          position: absolute;
+          background-color: #ffffff;
+      }
+      
+      .box .ellipse-4 {
+          width: 3px;
+          height: 3px;
+          top: 60px;
+          left: 1px;
+          border-radius: 1.52px;
+          position: absolute;
+          background-color: #ffffff;
+      }
+      
+      .box .ellipse-5 {
+          width: 3px;
+          height: 3px;
+          top: 36px;
+          left: 1px;
+          border-radius: 1.52px;
+          position: absolute;
+          background-color: #ffffff;
+      }
+      .group-17{
+        visibility: hidden;
+      }
+      .box .ellipse-6 {
+          width: 3px;
+          height: 3px;
+          top: 14px;
+          left: 1px;
+          border-radius: 1.52px;
+          position: absolute;
+          background-color: #ffffff;
+      }
+      
+      .box .group-2 {
+          position: absolute;
+          width: 110px;
+          height: 130px;
+          top: 12px;
+          left: 30px;
+      }
+      
+      .box .rectangle-2 {
+          position: absolute;
+          width: 110px;
+          height: 49px;
+          top: 0;
+          left: 0;
+          background-color: #ffffff36;
+          border-radius: 8px;
+      }
+      
+      .box .rectangle-3 {
+          position: absolute;
+          width: 110px;
+          height: 21px;
+          top: 54px;
+          left: 0;
+          background-color: #ffffff36;
+          border-radius: 8px;
+      }
+      
+      .box .rectangle-4 {
+          position: absolute;
+          width: 110px;
+          height: 21px;
+          top: 82px;
+          left: 0;
+          background-color: #ffffff36;
+          border-radius: 8px;
+      }
+      
+      .box .rectangle-5 {
+          position: absolute;
+          width: 110px;
+          height: 21px;
+          top: 109px;
+          left: 0;
+          background-color: #ffffff36;
+          border-radius: 8px;
+      }
+      
+      .box .rectangle-6 {
+          position: absolute;
+          width: 63px;
+          height: 63px;
+          top: 122px;
+          left: 0;
+          background-color: #08556e;
+          border-radius: 12px;
+          box-shadow: 0px 29.82px 34.08px #28375f1c;
+      }
+      
+      .box .div-wrapper {
+          position: absolute;
+          width: 85px;
+          height: 118px;
+          top: 3px;
+          left: 13px;
+      }
+      
+      .box .group-3 {
+          position: absolute;
+          width: 50px;
+          height: 44px;
+          top: 129px;
+          left: 6px;
+      }
+      
+      .box .group-4 {
+          position: absolute;
+          width: 19px;
+          height: 20px;
+          top: 0;
+          left: 0;
+          background-color: #ffffff42;
+          border-radius: 3px;
+      }
+      
+      .box .group-5 {
+          position: absolute;
+          width: 19px;
+          height: 20px;
+          top: 0;
+          left: 21px;
+          background-color: #ffffff1f;
+          border-radius: 3px;
+      }
+      
+      .box .group-6 {
+          position: absolute;
+          width: 50px;
+          height: 20px;
+          top: 24px;
+          left: 0;
+      }
+      
+      .box .rectangle-7 {
+          position: absolute;
+          width: 50px;
+          height: 2px;
+          top: 0;
+          left: 0;
+          background-color: #ffffff;
+      }
+      
+      .box .rectangle-8 {
+          position: absolute;
+          width: 50px;
+          height: 2px;
+          top: 6px;
+          left: 0;
+          background-color: #ffffffc7;
+      }
+      
+      .box .rectangle-9 {
+          position: absolute;
+          width: 50px;
+          height: 2px;
+          top: 12px;
+          left: 0;
+          background-color: #ffffff99;
+      }
+      
+      .box .rectangle-10 {
+          position: absolute;
+          width: 38px;
+          height: 2px;
+          top: 18px;
+          left: 0;
+          background-color: #ffffff70;
+      }
+      
+      .box .group-wrapper {
+          position: absolute;
+          width: 73px;
+          height: 98px;
+          top: 0;
+          left: 98px;
+          background-color: #d7e9f3;
+          border-radius: 12px;
+      }
+      
+      .box .group-7 {
+          position: relative;
+          width: 65px;
+          height: 82px;
+          top: 5px;
+          left: 4px;
+      }
+      
+      .box .rectangle-11 {
+          position: absolute;
+          width: 65px;
+          height: 58px;
+          top: 0;
+          left: 0;
+          background-color: #ffffff;
+          border-radius: 6px;
+      }
+      
+      .box .rectangle-12 {
+          position: absolute;
+          width: 65px;
+          height: 4px;
+          top: 62px;
+          left: 0;
+          background-color: #ffffff;
+      }
+      
+      .box .rectangle-13 {
+          position: absolute;
+          width: 65px;
+          height: 4px;
+          top: 70px;
+          left: 0;
+          background-color: #ffffffb0;
+      }
+      
+      .box .rectangle-14 {
+          position: absolute;
+          width: 43px;
+          height: 4px;
+          top: 77px;
+          left: 0;
+          background-color: #ffffff69;
+      }
+      .desktop .group-3  {
+        width: 300px;
+        position: absolute;
+        top:350px;
+        left: 150px;
+      }
+      .desktop .text-wrapper{
+        font-size: 36px;
+      
+      }
+      .desktop .get-started-wrapper{
+        top:170px;
+        left: 40px;
+      }
+      .nav-item{
+        padding: 0px;
+      }
+      /* nav{
+        position: absolute;
+      
+        left:-900px;
+      } */
+      /* .container-fluid{
+        visibility: hidden;
+      } */
+      /* nav:hover .container-fluid{
+        visibility: visible; */
+      /* } */
+      .desktop .get-start{
+        visibility: visible;
+      }
+      .desktop .group {
+        left:100px;
+      }
+
+      
+      .navbar-nav{
+        position: relative;
+        left: 50px; 
+        top: 45px;
+      }
+    }
+      
+      
+      
+        
+      
+      
+      
+      /* }
+      
+       */ 
